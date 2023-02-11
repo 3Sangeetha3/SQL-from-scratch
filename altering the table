@@ -1,0 +1,16 @@
+create table table_name
+(
+Number int,
+Name varchar2(20),
+age int
+);
+desc table_name;
+
+alter table table_name add marks int;
+desc table_name;
+
+alter table table_name drop age;
+desc table_name;
+
+alter table table_name rename to table1;
+desc table1;
