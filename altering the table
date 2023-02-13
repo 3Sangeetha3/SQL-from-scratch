@@ -13,4 +13,4 @@ alter table table_name drop age;
 desc table_name;
 
 alter table table_name rename to table1;
-desc table1;
+desc table1:
